@@ -7,7 +7,7 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-.banner-light-gray 
+.text-light-gray 
 {
   color: #727272;
 }
@@ -21,6 +21,10 @@
   cursor:pointer ;
   border: 0;
 }
+.section-tilte{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #131313;
 
 /*header style*/
 header{
@@ -33,10 +37,7 @@ nav{
   justify-content: space-between ;
   align-items: center;
 }
-.nav-tilte{
-  font-size: 3rem;
-  font-weight: 700;
-  color: #131313;
+
 }
 nav > ul{
   display: flex;
@@ -116,6 +117,10 @@ nav li{
   }
   .teams-img-container{
     grid-template-columns: 1fr;
+  }
+  .teams-content{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 /* /* tablet or midiuam divices   */
